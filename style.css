@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #93E9BE;
+    font-family: Sans-Serif;
+    margin: 3.5%;
+    min-height: 100vh;
+}
+header{
+    
+    padding: .8rem;
+    padding-left: .2rem;
+}
+main{
+    
+    padding: 1rem;
+}
+footer {
+    background: #36454F;
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    padding: 1.5em;
+    font-size: 1.5rem;
+    border: 1px solid white;
+}
+#msgBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #36454f99;
+    z-index: 1000;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    display: none;
+    
+}
+.msgYes {
+    color: white;
+    margin: .5rem;
+    color: white;
+    background: #00ff00;
+    padding: 1rem;
+    width: 90%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50%;
+    opacity: 1;
+    border: 1.5px white solid;
+    border-radius: 10px;
+    display: none;
+}
+.msgNo {
+    color: white;
+    width: 90%;
+    margin: .5rem;
+    color: white;
+    background: #ff0000;
+    padding: 1rem;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50%;
+    border: 1.5px white solid;
+    border-radius: 10px;
+    display: none;
+    
+}
+h1, p {
+    color: #36454F;
+}
+
+h1 {
+    width: 94vw;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+input[type="number"]{
+    background: #F9A4A455;
+    color: black;
+    font-size: 1.1rem;
+    margin-right: 3vw;
+    width: 75%;
+    padding: 5px;
+    
+}
+input[type="text"]:focus{
+    border: 2.3px #F9A4A4 solid;
+    outline: none;
+}
+button{
+    background: #FF6B6B;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 2px;
+}

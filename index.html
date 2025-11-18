@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>This is a Leap Year Checker</h1>
+        <p>Please input the year below</p>
+    </header>
+    <div id="msgBox">
+        <div class="msgYes">
+          <span onclick="msgYes.style.display = `none`; msgBox.style.display = `none`"> &times;</span>  <p> Yes, <span class="yes"></span>, is a leap year <br /> ✅</p>
+        </div>
+         <div class="msgNo">
+          <span onclick="msgYes.style.display = `none`; msgBox.style.display = `none`"> &times;</span> 
+            <p> No, <span class="no"></span>, is not a leap year <br /> ❎</p>
+        
+</div>
+    </div>
+    <main>
+        <label style="width: 96vw;"for="checkerLabel"><strong>CHECK:</strong><br />
+        <input type="number" id="checker" placeholder="Please input your desired year...."/>
+       </label>
+       <button type="submit" id="checkerBtn" onclick="values()">Check</button>
+    </main>
+    <footer>
+        <p id="p" style="color: white;">5yyy</p>
+        All rights Reserved. <br />&copy; Big Don for Chioma
+        
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
